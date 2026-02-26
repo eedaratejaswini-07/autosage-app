@@ -135,23 +135,37 @@ The system was validated using:
 
 ## 📸 Application Screenshots
 
-*(Add your screenshots inside the `assets/` folder)*
-
-```text
-assets/
-│
-├── home.png
-├── image_analysis.png
-└── chatbot.png
-```
-
-Example usage in README:
-
-```markdown
+### 🏠 Home Interface
 ![Home Screen](assets/home.png)
-![Vehicle Analysis](assets/image_analysis.png)
-![Chat Assistant](assets/chatbot.png)
-```
+
+---
+
+## 🚗 Four-Wheeler Analysis
+
+### 📷 Analysis Output – Part 1
+![Four Wheeler 1](assets/four_Wheeler_image_analysis/image1.jpg)
+
+### 📊 Analysis Output – Part 2
+![Four Wheeler 2](assets/four_Wheeler_image_analysis/image2.jpg)
+
+### 📈 Analysis Output – Part 3
+![Four Wheeler 3](assets/four_Wheeler_image_analysis/image3.jpg)
+
+---
+
+## 🏍 Two-Wheeler Analysis
+
+### 📷 Analysis Output – Part 1
+![Two Wheeler 1](assets/two_wheeler_image_analysis/image1.jpg)
+
+### 📊 Analysis Output – Part 2
+![Two Wheeler 2](assets/two_wheeler_image_analysis/image2.jpg)
+
+
+---
+
+## 🤖 Automotive AI Assistant
+![Chatbot](assets/chatbot.png)
 
 ---
 
@@ -172,23 +186,32 @@ https://drive.google.com/file/d/1rrwIvtJkw4qBJb4GAjfqua2YbGsxRw4e/view?usp=drive
 ## 📂 Project Structure
 
 ```text
-autosage-app/
+autoexpert/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── .env
+├── .env                      # Environment variables (not pushed to GitHub)
 │
-├── images/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   ├── image3.jpg
+├── images/                   # Test images used for validation
+│   ├── image1.png
+│   ├── image2.png
+│   ├── image3.png
 │   └── ...
 │
-├── assets/
+├── assets/                   # Screenshots for README
+│   │
 │   ├── home.png
-│   ├── image_analysis.png
-│   └── chatbot.png
+│   ├── chatbot.png
+│   │
+│   ├── four_wheeler_analysis/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── image3.jpg
+│   │
+│   └── two_wheeler_analysis/
+│       ├── image1.jpg
+│       └── image2.jpg
 │
 └── docs/
     └── AutoSage_Project_Report.pdf
@@ -201,7 +224,7 @@ autosage-app/
 
 ```bash
 git clone https://github.com/eedaratejaswini-07/autosage-app.git
-cd autosage-app
+cd autoexpert
 ```
 
 ### 2️⃣ Install Dependencies
