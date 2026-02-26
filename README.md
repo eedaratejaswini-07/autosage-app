@@ -1,0 +1,265 @@
+# 🚗 AutoSage  
+## Multimodal AI Vehicle Intelligence System  
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-red)
+![Google Gemini](https://img.shields.io/badge/Google-Gemini_2.5_Flash-orange)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+![License](https://img.shields.io/badge/License-Educational-lightgrey)
+
+AutoSage is a **multimodal AI-powered automotive intelligence system** built using **Google Gemini 2.5 Flash**.  
+The application provides structured vehicle insights from images and supports automotive advisory queries via a domain-restricted AI assistant.
+
+Developed as part of a **Google Cloud – Generative AI Internship**, this project demonstrates real-world implementation of:
+
+- Multimodal AI integration  
+- Prompt engineering  
+- Secure API handling  
+- Domain restriction logic  
+- Real-time Streamlit deployment  
+
+---
+
+# 📌 Problem Statement
+
+Modern vehicle buyers often face challenges in:
+
+- Identifying vehicle models from images  
+- Understanding technical specifications clearly  
+- Comparing maintenance and resale value  
+- Selecting eco-friendly vehicle options  
+- Making informed purchasing decisions  
+
+There is a need for a structured, AI-driven automotive intelligence assistant that simplifies vehicle decision-making.
+
+---
+
+# 🎯 Project Objectives
+
+- Implement image-based vehicle recognition using Gemini multimodal capabilities  
+- Generate structured automotive insights  
+- Restrict chatbot responses strictly to automotive domain  
+- Provide budget-based and comparison-based recommendations  
+- Deploy as a real-time interactive web application  
+
+---
+
+# 🔍 Core Modules
+
+## 1️⃣ Image-Based Vehicle Analysis Module
+
+Users upload a vehicle image and receive structured insights including:
+
+- Brand & Model Identification  
+- Launch Year  
+- Vehicle & Fuel Type  
+- Engine & Performance Specifications  
+- Mileage & Price Range (INR)  
+- Maintenance Level  
+- Safety Features  
+- Target Audience  
+- Estimated 10-Year Resale Value  
+- Market Positioning Summary  
+
+Structured prompt engineering ensures consistent formatting and professional output generation.
+
+---
+
+## 2️⃣ Automotive AI Advisory Assistant
+
+The text-based assistant supports:
+
+- Budget-based vehicle recommendations  
+- Model comparisons  
+- EV & Hybrid suggestions  
+- Seasonal maintenance advice  
+- Simplified explanation of technical terms  
+
+The assistant is **domain-restricted**, ensuring it only responds to automotive-related queries.
+
+---
+
+# ⚙️ Why Gemini 2.5 Flash?
+
+Gemini 2.5 Flash was selected due to:
+
+- Fast multimodal processing  
+- Low latency inference  
+- Cost-efficient API usage  
+- Strong structured response generation  
+- Reliable image + text understanding  
+
+---
+
+# 🏗 System Architecture
+
+```
+User Input (Image / Text)
+        ↓
+Streamlit Frontend
+        ↓
+Prompt Engineering Layer
+        ↓
+Gemini 2.5 Flash API
+        ↓
+Structured Insight Engine
+        ↓
+Formatted Response Display
+```
+
+---
+
+# 🛠 Technology Stack
+
+- Python  
+- Streamlit  
+- Google Gemini 2.5 Flash API  
+- Prompt Engineering  
+- Multimodal AI  
+- dotenv (Secure API Management)  
+
+---
+
+# 🧪 Testing & Validation Strategy
+
+The system was validated using:
+
+- Image format validation (JPEG / PNG)  
+- Non-vehicle image handling  
+- Domain restriction enforcement  
+- Conditional UI rendering tests  
+- Structured output consistency checks  
+- API error handling validation  
+
+---
+
+# 📸 Application Screenshots
+
+*(Add your actual screenshots inside the `assets/` folder and update names accordingly)*
+
+```
+assets/
+│
+├── home.png
+├── image_analysis.png
+└── chatbot.png
+```
+
+Example:
+
+```markdown
+![Home Screen](assets/home.png)
+![Vehicle Analysis](assets/image_analysis.png)
+![Chat Assistant](assets/chatbot.png)
+```
+
+---
+
+# 🚀 Live Deployment
+
+🔗 **Streamlit App:**  
+https://autosage-app-gp4curmwapppp2edzadnwdta.streamlit.app/ 
+
+---
+
+# 🎥 Project Demonstration
+
+🔗 **Demo Video:**  
+https://drive.google.com/file/d/1rrwIvtJkw4qBJb4GAjfqua2YbGsxRw4e/view?usp=drive_link
+
+---
+
+# 📂 Project Structure
+
+autosage-app/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env
+│
+├── images/                
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   ├── image3.jpg
+│   └── ...
+│
+│
+└── docs/
+    └── AutoSage_Project_Report.pdf
+
+---
+
+# ⚙️ Installation Guide
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/eedaratejaswini-07/autosage-app.git
+cd autosage-app
+```
+
+## 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 3️⃣ Configure Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+GOOGLE_API_KEY=your_api_key_here
+```
+
+## 4️⃣ Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# ⚠️ Limitations
+
+- Dependent on Gemini API quota limits  
+- AI-based estimations may vary slightly  
+- Requires stable internet connectivity  
+- Image recognition accuracy depends on clarity and angle  
+
+---
+
+# 🔮 Future Enhancements
+
+- VIN-based vehicle identification  
+- Integration with real-time automotive databases  
+- Voice-enabled assistant  
+- Personalized AI recommendations  
+- Cloud scalability & containerization  
+
+---
+
+# 📘 Documentation
+
+Detailed technical documentation available in:
+
+```
+docs/AutoSage_Project_Report.pdf
+```
+
+---
+
+# 👩‍💻 Developer
+
+**Eedara Tejaswini** 
+**Prasanna Kumar Raparla**
+**Sai Kumar Ramoju**
+**Sandeep Peruri**
+Google Cloud – Generative AI Internship  
+
+---
+
+# 📜 License
+
+This project is developed for educational and internship purposes only.
