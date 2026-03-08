@@ -19,6 +19,7 @@ try:
     api_key = st.secrets["GOOGLE_API_KEY"]
 except Exception:
     # Fallback to local .env
+    env_path = Path(__file__).parent / ".env"
     load_dotenv()
     api_key = os.getenv("GOOGLE_API_KEY")
 

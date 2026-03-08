@@ -1,4 +1,4 @@
-.env
+Project_Files/.env
 __pycache__/
 *.pyc
-video demo/
+*.log
